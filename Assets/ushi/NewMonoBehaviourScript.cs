@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
+    int specialPoint;
+
+    [SerializeField] private GameObject obj;
+    public bool isGet { get; private set; }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,5 +17,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void SpecialPoint()
+    {
+
     }
 }
